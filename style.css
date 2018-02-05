@@ -1,16 +1,7 @@
-body {
-    background-color: #EDE5E2
-    color: #F50514
-    font-size: 12;
+#header
+{
+    margin: 10px;
+    padding: 3px;
+    background-color: #174C4F;
 }
-h1 {
-    color: red;
-}
-#intro {
-    font-size: 1.3em;
-}
-.colorful {
-    color: light blue;
-}
-
 
