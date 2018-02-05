@@ -1,4 +1,16 @@
-body {font-family: Helvetica, sans-serif;}
-body {background: color: #EDE5E2}
-#para1 {color:#F50514 }
-#masthead { text-align: center;}
+body {
+    background-color: #EDE5E2
+    color: #F50514
+    font-size: 12;
+}
+h1 {
+    color: red;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: light blue;
+}
+
+
