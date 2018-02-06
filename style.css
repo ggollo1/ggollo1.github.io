@@ -1,6 +1,5 @@
 body {
    font-size: 24px;
-   font-family: Georgia;
 }
 h1  {
        text-align: center;
@@ -17,3 +16,5 @@ h1  {
 #title {
     color: blue;
 }    
+
+<font face="courier" size="10"></font>
