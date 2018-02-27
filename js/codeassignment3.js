@@ -1,6 +1,11 @@
 let projectId= 1
 let desc= "gabrielle's portfolio"
 let projectTitle= "web app"
-let projectTitles = ["web app", "Book Assignment 1: Points of Interest, Waveland, MS "]
-let array= ["first", "second", "third", "fourth"]
-console.log("how many" + array);
+let projectarray = ["web app", "Book Assignment 1: Points of Interest, Waveland, MS "]
+
+console.log(projectID);
+console.log(desc);
+console.log(projectTitle);
+console.log(projectarray);
+console.log("projectId: " + projectId);
+console.log("Title" + projectTitle)
