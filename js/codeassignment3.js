@@ -8,4 +8,4 @@ console.log(desc);
 console.log(projectTitle);
 console.log(projectarray);
 console.log("projectId: " + projectId);
-console.log("Title" + projectTitle)
+console.log("Title" + projectTitle);
