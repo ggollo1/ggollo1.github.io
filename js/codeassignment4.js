@@ -17,6 +17,6 @@ let projectArray = [
 
 
 
-console.log(projectArray[2])
-console.log(projectObject.desc)
-console.log(projectObject["desc"])
+console.log(projectArray[1])
+console.log(projectObject.title)
+console.log(projectObject["title"])
