@@ -9,8 +9,8 @@ let projectObject = {
   'tour', 
   'coast', 
   'beach'
-]
-}
+  ]
+  }
  let projectArray = [
    1,
    'https://ggollo1.github.io/',
@@ -18,7 +18,7 @@ let projectObject = {
    'Gabrielle's Portfolio',
    true,
    ['map', 'tour', 'coast', 'beach']
- ]
+  ]
 
 
 
