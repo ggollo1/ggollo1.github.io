@@ -2,12 +2,12 @@ let projectObject = {
   id: 1,
   url: 'https://ggollo1.github.io/',
   title: 'My portfolio',
-  desc: 'Gabrielle's Portfolio'
+  desc: 'Gabrielle's Portfolio',
+  thumb: true
   keywords: ['map', 'tour', 'coast', 'beach']
-  true
 }
 
-let Array = [
+let projectArray = [
    1,
    'https://ggollo1.github.io/',
    'My portfolio',
@@ -17,6 +17,6 @@ let Array = [
 
 
 
-console.log(Array[2])
+console.log(projectArray[2])
 console.log(projectObject.desc)
 console.log(projectObject["desc"])
