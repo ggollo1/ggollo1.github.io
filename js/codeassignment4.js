@@ -22,6 +22,6 @@ let projectObject = {
 
 
 
- console.log(projectArray[2])
- console.log(projectObject.desc)
- console.log(projectObject["desc"])
+console.log(projectArray[2])
+console.log(projectObject.desc)
+console.log(projectObject["desc"])
