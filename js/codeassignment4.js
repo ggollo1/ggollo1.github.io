@@ -3,21 +3,20 @@ let projectObject = {
   url: 'https://ggollo1.github.io/',
   title: 'My portfolio',
   desc: 'Gabrielle's Portfolio'
-  thumb: true,
   keywords: ['map', 'tour', 'coast', 'beach']
+  true
 }
 
-let projectArray = [
+let Array = [
    1,
    'https://ggollo1.github.io/',
    'My portfolio',
    'Gabrielle's Portfolio',
-   true,
    ['map', 'tour', 'coast', 'beach']
 ]
 
 
 
-console.log(projectArray[2])
+console.log(Array[2])
 console.log(projectObject.desc)
 console.log(projectObject["desc"])
