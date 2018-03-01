@@ -1,4 +1,4 @@
-let projectObject = {
+  let projectObject = {
   id: 1,
   url: 'https://ggollo1.github.io/',
   title: 'My portfolio',
@@ -7,7 +7,7 @@ let projectObject = {
   keywords: ['map', 'tour', 'coast', 'beach']
 }
 
-let projectArray = [
+  let projectArray = [
    1,
    'https://ggollo1.github.io/',
    'My portfolio',
