@@ -2,23 +2,19 @@ let projectObject = {
   id: 1,
   url: 'https://ggollo1.github.io/',
   title: 'My portfolio',
-  desc: 'Gabrielle's Portfolio',
-  thumbnail: true,
-  keywords: [
-  'map', 
-  'tour', 
-  'coast', 
-  'beach'
-  ]
-  }
- let projectArray = [
+  desc: 'Gabrielle's Portfolio'
+  thumb: true,
+  keywords: ['map', 'tour', 'coast', 'beach']
+}
+
+let projectArray = [
    1,
    'https://ggollo1.github.io/',
    'My portfolio',
    'Gabrielle's Portfolio',
    true,
    ['map', 'tour', 'coast', 'beach']
-  ]
+]
 
 
 
