@@ -13,8 +13,8 @@ let projects = [
   project2
 ]
 for (let i = 0; i < projects.length; i++) {
-  console.log('desc ' + i + ' Waveland: ' + projects[1].desc)
+  console.log('desc ' + i + ' Waveland: ' + projects[i].desc)
   if (projects[i].hasThumbnail === true) {
-  console.log('Screenshot' + projects[1].id + 'web_hi_res_512.png')
+  console.log('Screenshot' + projects[i].id + 'web_hi_res_512.png')
   }
   
