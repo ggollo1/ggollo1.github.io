@@ -5,5 +5,5 @@ let projectarray = ["web app", "Book Assignment 1: Points of Interest, Waveland,
 
 console.log('projectID');
 console.log('desc');
-console.log('projectTitle');
+console.log('bool');
 console.log('projectarray');
