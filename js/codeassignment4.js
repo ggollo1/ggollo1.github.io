@@ -3,7 +3,7 @@ let projectObject = {
   url: 'https://ggollo1.github.io/',
   title: 'My portfolio',
   desc: 'Gabrielle's Portfolio',
-  bool: true,
+  thumbnail: true,
   keywords: [
   'map', 
   'tour', 
