@@ -3,19 +3,19 @@ body {
 }
 
 h1  {
-    text-align: center;
-    font-size: 18pt;
-    color: #1FA4C5;
-    margin-bottom: 5px;
-    text-decoration: underline;
-    font family: Hand;
+   text-align: center;
+   font-size: 18pt;
+   color: #1FA4C5;
+   margin-bottom: 5px;
+   text-decoration: underline;
+   font family: Hand;
 }
 
 .try  {
-    background-color: #C1DAE5;
+   background-color: #C1DAE5;
 }    
 
 #p01 {
-   font face: courier;
+   font-family: Helvetica, sans-serif;
    color: red;
 }
