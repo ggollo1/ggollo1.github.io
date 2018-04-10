@@ -11,7 +11,7 @@ let poly = L.polygon([
 poly.bindPopup('Waveland')
 mark.bindPopup('Home')
 
-function logCurrentCoordinates (event) {
+
+tmap.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
-}
-tmap.on('click', logCurrentCoordinates)
+})
