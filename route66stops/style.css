@@ -1,0 +1,28 @@
+body {
+  text-align: left;
+  background-color: #ffe6e6;
+  color: #666666;
+}
+
+
+#title {
+  font-family: "Bodini MT Condensed";
+  font-size: 28pt;
+  margin-left: 120px;
+  font-weight: bold;
+}
+
+
+#subtitle {
+  font-family: "Bodini MT Condensed";
+  margin-left: 120px
+}
+
+
+#webmap {
+  height: 500px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
