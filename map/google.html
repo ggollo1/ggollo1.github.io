@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baton Rouge, LA</title>
+     <meta name="viewport" content="initial-scale=1.0">
+     <meta charset="utf-8">
+     <style>
+       #googlemap {
+         height: 100%;
+       }
+       html, body {
+         height: 100%;
+       }
+     </style>
+   </head>
+   <body>
+     <div id="googlemap"></div>
+     <script>
+       var googlemap;
+       function initMap() {
+         googlemap = new google.maps.Map(document.getElementById('googlemap'), {
+           center: {lat: 30.448279, lng: -91.175832 },
+           mapTypeId: 'satellite',
+           zoom: 5
+         });
+       }
+     </script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmSemixAO91nHVtbuDEFRHcSUJ9QbAt8g&callback=initMap"
+     async defer></script>
+   </body>
+ </html>
