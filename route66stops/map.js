@@ -140,7 +140,7 @@ GeminiMarker.bindPopup('The Gemini Giant, Wilmington, IL')
 
 let SantaIcon = L.icon({
   iconUrl: 'icons/santamonicapier.png',
-  iconSize: [30, 30],
+  iconSize: [40, 40],
   iconAnchor: [35, 35]
 })
 
