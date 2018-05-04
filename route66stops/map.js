@@ -14,7 +14,7 @@ L.control.layers(MapDisplay).addTo(abbyswebmap)
 
 let RanchIcon = L.icon({
   iconUrl: 'icons/Cadillac-Ranch-1.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -23,7 +23,7 @@ RanchMarker.bindPopup('Cadillac Ranch, Amarillo, TX')
 
 let PaintedIcon = L.icon({
   iconUrl: 'icons/painteddes.png',
-  iconSize: [100, 100],
+  iconSize: [30, 30],
   iconAnchor: [25, 90]
 })
 
@@ -32,7 +32,7 @@ PaintedMarker.bindPopup('Painted Desert, Arizona')
 
 let TotemIcon = L.icon({
   iconUrl: 'icons/totempark.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -41,7 +41,7 @@ TotemMarker.bindPopup('Ed Galloways Totem Pole Park, Foyil, OK')
 
 let GasIcon = L.icon({
   iconUrl: 'icons/gas.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -50,7 +50,7 @@ GasMarker.bindPopup('Sheas Gas Station Museum, Springfield, IL')
 
 let GrantIcon = L.icon({
   iconUrl: 'icons/grantpark.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -59,7 +59,8 @@ GrantMarker.bindPopup('Grant Park, Chicago, IL')
 
 let MilkIcon = L.icon({
   iconUrl: 'icons/milk.png',
-  iconSize: [130, 130]
+  iconSize: [30, 30],
+  iconAnchor: [35, 35]
 })
 
 let MilkMarker = L.marker([35.467181, -97.473348], {icon:MilkIcon}).addTo(abbyswebmap)
@@ -67,7 +68,8 @@ MilkMarker.bindPopup('The Milk Bottle Grocery, Oklahoma City, OK')
 
 let ShoeIcon = L.icon({
   iconUrl: 'icons/shoetree.png',
-  iconSize: [130, 130]
+  iconSize: [30, 30],
+  iconAnchor: [35, 35]
 })
 
 let ShoeMarker = L.marker([34.557822, -115.752356], {icon:ShoeIcon}).addTo(abbyswebmap)
@@ -75,7 +77,7 @@ ShoeMarker.bindPopup('Route 66 Shoe Tree, Amboy, CA')
 
 let LousIcon = L.icon({
   iconUrl: 'icons/loumitch.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -84,7 +86,7 @@ LouMarker.bindPopup('Lou Mitchells Cafe, Chicago, IL')
 
 let RoyIcon = L.icon({
   iconUrl: 'icons/roys.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -93,7 +95,7 @@ RoyMarker.bindPopup('Roys Motel and Cafe, Amboy, CA')
 
 let SnowIcon = L.icon({
   iconUrl: 'icons/snowcap.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -102,7 +104,7 @@ SnowMarker.bindPopup('Snow Cap Dive-In, Seligman, AZ')
 
 let WigwamIcon = L.icon({
   iconUrl: 'icons/wigwam.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -111,7 +113,7 @@ WigwamMarker.bindPopup('Wigwam Motels, Holbrook, AZ')
 
 let JackIcon = L.icon({
   iconUrl: 'icons/jackrabtrading.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -120,7 +122,7 @@ JackMarker.bindPopup('Jack Rabbit Trading Post, Joseph City, AZ')
 
 let TowIcon = L.icon({
   iconUrl: 'icons/towtater.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -129,7 +131,7 @@ TowMarker.bindPopup('Tow Tater, Galena, Kansas')
 
 let GeminiIcon = L.icon({
   iconUrl: 'icons/geminigiant.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
@@ -138,7 +140,7 @@ GeminiMarker.bindPopup('The Gemini Giant, Wilmington, IL')
 
 let SantaIcon = L.icon({
   iconUrl: 'icons/santamonicapier.png',
-  iconSize: [130, 130],
+  iconSize: [30, 30],
   iconAnchor: [35, 35]
 })
 
