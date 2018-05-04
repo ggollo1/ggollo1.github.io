@@ -12,6 +12,20 @@ let MapDisplay = {
 
 L.control.layers(MapDisplay).addTo(abbyswebmap)
 
+var circle = L.circle([39, -91], {
+    color: 'black',
+    fillOpacity: 0,
+    radius: 1000000
+}).addTo(abbyswebmap);
+circle.bindPopup('Encompasses all there is worth seeing along the world-renowned Route 66 in the Central US.')
+
+var circle = L.circle([38, -112], {
+    color: 'black',
+    fillOpacity: 0,
+    radius: 900000
+}).addTo(abbyswebmap);
+circle.bindPopup('Encompasses all the things worth seeing along Route 66 in the Western US.')
+
 let RanchIcon = L.icon({
   iconUrl: 'icons/Cadillac-Ranch-1.png',
   iconSize: [30, 30],
