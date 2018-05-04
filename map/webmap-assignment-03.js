@@ -11,7 +11,7 @@ let myGreenIcon = L.icon({
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 })
 
-let mark = L.marker([30.26	-89.388052], {icon: myGreenIcon}).addTo(tmap)
+let mark = L.marker([30.26,	-89.388052], {icon: myGreenIcon}).addTo(tmap)
 
 let poly = L.polygon([
   [30.25,	-89.398],
